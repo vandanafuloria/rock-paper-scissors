@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #415B78;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1{
+    color:whitesmoke;
+    margin:20px;
+   font-size: xxx-large;
+   font-weight: 700;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.main-container{
+    width: 70%;
+  text-align: center;
+    margin:auto;
+   
+}
+
+.main-container img{
+    width: 80px;
+    border-radius: 50%;
+}
+.main{
+   
+    text-align: center; 
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+  
+    
+
+   
+}
+.main h3{
+    margin:30px 10px;
+    padding:20px;
+    border-radius: 20px;
+    border: 2px solid snow;
+    font-size: xx-large;
+    color:#415B78;
+    margin:5rem 0;
+
+    
+   
+}
+.play-area{
+    border:10px solid powderblue;
+    border-radius: 20px;
+    border-style:ridge;
+}
+.play-area img {
+    width: 300px;
+    height: 300px;
+}
+.rock
+{
+    background-color:rgb(238, 52, 146);
+}
+.paper{
+    background-color:rgb(249, 201, 0);
+}
+.scissors{
+    background-color: rgb(4, 201, 231) ;
+}
+.button{
+    padding:20px 50px;
+    background-color: rgb(220, 215, 215);
+    color:#415B78;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: xx-large;
+    border-radius: 20px;
+    border:5px #869db8 solid;
+    margin-top:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
