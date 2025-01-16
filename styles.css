@@ -16,7 +16,7 @@ h1{
    font-size: xxx-large;
    font-weight: 700;
     align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     
 }
 .main-container{
@@ -30,49 +30,62 @@ h1{
     width: 80px;
     border-radius: 50%;
 }
+.input{
+    display: flex;
+    justify-content: space-around;
+
+}
 .main{
    
     text-align: center; 
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     border-radius: 20px;
+    justify-content: center;
+    
   
     
 
    
 }
-.main h3{
-    margin:30px 10px;
-    padding:20px;
+.play-ground{
+    border:10px solid powderblue;
     border-radius: 20px;
-    border: 2px solid snow;
-    font-size: xx-large;
-    color:#415B78;
-    margin:5rem 0;
+    border-style:ridge;
+    padding:5px;
+}
+.num{
+  
+    border-radius: 10px;
+    border: 2px solid rgb(81, 158, 168);
+    font-size: medium;
+    color:white;
+   padding: 10px;
+   margin: 5px;
+   font-weight: 400;
+   background-color:rgb(42, 42, 42);
 
     
    
 }
 .play-area{
-    border:10px solid powderblue;
-    border-radius: 20px;
-    border-style:ridge;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.play-area h3{
+    font-size: larger;
+    font-style: oblique;
+    color:white;
+    margin:5px 0;
 }
 .play-area img {
     width: 300px;
     height: 300px;
 }
-.rock
-{
-    background-color:rgb(238, 52, 146);
-}
-.paper{
-    background-color:rgb(249, 201, 0);
-}
-.scissors{
-    background-color: rgb(4, 201, 231) ;
-}
-.button{
+
+.button, .score{
     padding:20px 50px;
     background-color: rgb(220, 215, 215);
     color:#415B78;
